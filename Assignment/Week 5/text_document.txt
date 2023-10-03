@@ -1,0 +1,30 @@
+Exercise 145: Find the LongestWord in a File
+(39 Lines)
+In this exercise you will create a Python program that identifies the longest word(s)
+in a file. Your program should output an appropriate message that includes the length
+of the longest word, along with all of the words of that length that occurred in the
+file. Treat any group of non-white space characters as a word, even if it includes
+numbers or punctuation marks.
+Exercise 146: Letter Frequencies
+(43 Lines)
+One technique that can be used to help break some simple forms of encryption is
+frequency analysis. This analysis examines the encrypted text to determine which
+characters are most common. Then it tries to map the most common letters in English,
+such as E and T, to the most commonly occurring characters in the encrypted
+text.
+Write a program that initiates this process by determining and displaying the
+frequencies of all letters in a file. Ignore spaces, punctuation marks, and numbers as
+you perform this analysis. Your program should be case insensitive, treating a and
+A as equivalent. The user will provide the file name as a command line parameter.
+Your program should display a meaningful error message if the user provides the
+wrong number of command line parameters, or if the program is unable to open the
+file indicated by the user.
+Exercise 147:Words that Occur Most
+(37 Lines)
+Write a program that displays the word (or words) that occur most frequently in a
+file. Your program should begin by reading the name of the file from the user. Then
+it should find the word(s) by splitting each line in the file at each space. Finally,
+any leading or trailing punctuation marks should be removed from each word. In
+addition, your program should ignore capitalization. As a result, apple, apple!,
+Apple and ApPlE should all be treated as the same word. You will probably find
+your solution to Exercise 111 helpful when completing this problem.
