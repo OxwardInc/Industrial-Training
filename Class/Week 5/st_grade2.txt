@@ -1,0 +1,5 @@
+1:	Paul	56	Missing
+2:	Silver	89	A
+==============================No. of student: 2
+Total Score:145
+Average Score:72.5
