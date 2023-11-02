@@ -43,3 +43,7 @@ class Banking_application(self, name, dob, phone, address, email, deposit):
         acc_number = self.acc_number
         if amount <= self.balance:
             self.balance -= amount
+            print(f'Transfer successful to {acc_number}')
+        else:
+            return 'Insuffucient balance'
+
